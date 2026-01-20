@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api.v1.api_router import api_router
+
+from app.api.api_router import api_router
 from app.core.startup import on_startup
 from app.core.shutdown import on_shutdown
 
