@@ -1,2 +1,2 @@
 def on_shutdown():
-    print("?? API Gateway Stopped")
+    print("API Gateway Stopped")
