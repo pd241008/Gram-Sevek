@@ -1,0 +1,101 @@
+id,text,category
+1,No water supply in ward 3 since two days,Water
+2,Water pipe leaking near temple road,Water
+3,Drinking water is dirty in our village,Water
+4,Water tank is damaged near school,Water
+5,Low water pressure in ward 5,Water
+6,Borewell not working in main market area,Water
+7,Water overflowing from pipeline near bus stand,Water
+8,No drinking water facility near bus stop,Water
+9,Hand pump not functioning in ward 2,Water
+10,Water supply stops every evening,Water
+11,Pipeline broken near hospital road,Water
+12,Water is muddy and unsafe for drinking,Water
+13,Leakage in underground water pipe,Water
+14,No water in public tap since morning,Water
+15,Water tank cleaning not done for months,Water
+16,Water shortage in our area daily,Water
+17,Tap water has bad smell,Water
+18,Overflowing water tank near Panchayat office,Water
+19,Water connection not provided to new houses,Water
+20,Drinking water problem in ward 7,Water
+21,Street light not working near temple,Electricity
+22,Frequent power cuts in ward 4,Electricity
+23,Electric pole damaged near school,Electricity
+24,No electricity supply since morning,Electricity
+25,Transformer not working in our area,Electricity
+26,Loose electric wires hanging near road,Electricity
+27,Street lights off in market area,Electricity
+28,Voltage fluctuation in ward 6,Electricity
+29,Power outage for last 5 hours,Electricity
+30,Electric meter not functioning properly,Electricity
+31,Electricity problem during night time,Electricity
+32,Broken electric pole near bus stand,Electricity
+33,High voltage causing appliance damage,Electricity
+34,No street lights in our street,Electricity
+35,Sparks coming from electric wire,Electricity
+36,Power cut every evening in our village,Electricity
+37,Transformer making loud noise,Electricity
+38,Electric line fallen due to storm,Electricity
+39,New connection request pending,Electricity
+40,Electricity issue near hospital road,Electricity
+41,Road full of potholes near school,Road
+42,Main road damaged after heavy rain,Road
+43,No proper road in ward 2,Road
+44,Road construction work incomplete,Road
+45,Big cracks on highway road,Road
+46,Muddy road causing traffic problem,Road
+47,Broken road near temple,Road
+48,Road repair not done for months,Road
+49,Uneven road surface in market area,Road
+50,No street signs on main road,Road
+51,Road blocked due to debris,Road
+52,Drain water flowing on road,Road
+53,Poor road condition near hospital,Road
+54,Gravel road causing accidents,Road
+55,Narrow road causing traffic jam,Road
+56,Road widening work stopped,Road
+57,Damaged bridge on village road,Road
+58,Road not cleaned after rainfall,Road
+59,Waterlogged road in ward 8,Road
+60,Cracked cement road near bus stand,Road
+61,Garbage not collected in ward 3,Sanitation
+62,Drain blocked near school,Sanitation
+63,Overflowing sewage near temple,Sanitation
+64,Public toilet not cleaned regularly,Sanitation
+65,Waste dumped near market area,Sanitation
+66,Bad smell from drainage system,Sanitation
+67,Open drainage causing mosquitoes,Sanitation
+68,Garbage bins not available in street,Sanitation
+69,Sewer line leaking in our area,Sanitation
+70,No cleaning staff visiting regularly,Sanitation
+71,Dirty surroundings near bus stop,Sanitation
+72,Waste water stagnation near houses,Sanitation
+73,Drainage overflow during rain,Sanitation
+74,Garbage pile near hospital road,Sanitation
+75,Open garbage dumping ground,Sanitation
+76,Public sanitation issue in ward 6,Sanitation
+77,Toilet facility broken in village,Sanitation
+78,Drain not covered properly,Sanitation
+79,Mosquito breeding due to stagnant water,Sanitation
+80,No waste collection vehicle in area,Sanitation
+81,Request for new ration card,Others
+82,Pension application status pending,Others
+83,Need street name board installation,Others
+84,Request for new bus stop shelter,Others
+85,Animal nuisance in residential area,Others
+86,Request for community hall repair,Others
+87,Need new street sign board,Others
+88,Complaint about stray dogs,Others
+89,Application for birth certificate delayed,Others
+90,Tree fallen blocking pathway,Others
+91,Request for new school building,Others
+92,Complaint about loudspeaker disturbance,Others
+93,Need speed breaker installation,Others
+94,Encroachment on public land,Others
+95,Request for street cleaning awareness,Others
+96,Public park maintenance issue,Others
+97,Complaint about illegal parking,Others
+98,Need new street benches,Others
+99,Request for village meeting arrangement,Others
+100,General complaint regarding public service delay,Others

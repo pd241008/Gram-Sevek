@@ -1,0 +1,4 @@
+{
+  "python.defaultInterpreterPath": "e:\\03-Code\\Projects\\Legacy\\Gram-Sewek\\.venv\\Scripts\\python.exe",
+  "python.analysis.extraPaths": ["./backend"]
+}
