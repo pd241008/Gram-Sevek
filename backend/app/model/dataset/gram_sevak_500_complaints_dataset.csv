@@ -1,0 +1,501 @@
+id,text,category
+1,No water supply in ward 3 since two days,Water
+2,Water pipe leaking near temple road,Water
+3,Drinking water is dirty in our village,Water
+4,Water tank is damaged near school,Water
+5,Low water pressure in ward 5,Water
+6,Borewell not working in main market area,Water
+7,Water overflowing from pipeline near bus stand,Water
+8,No drinking water facility near bus stop,Water
+9,Hand pump not functioning in ward 2,Water
+10,Water supply stops every evening,Water
+11,Pipeline broken near hospital road,Water
+12,Water is muddy and unsafe for drinking,Water
+13,Leakage in underground water pipe,Water
+14,No water in public tap since morning,Water
+15,Water tank cleaning not done for months,Water
+16,Water shortage in our area daily,Water
+17,Tap water has bad smell,Water
+18,Overflowing water tank near Panchayat office,Water
+19,Water connection not provided to new houses,Water
+20,Drinking water problem in ward 7,Water
+21,Street light not working near temple,Electricity
+22,Frequent power cuts in ward 4,Electricity
+23,Electric pole damaged near school,Electricity
+24,No electricity supply since morning,Electricity
+25,Transformer not working in our area,Electricity
+26,Loose electric wires hanging near road,Electricity
+27,Street lights off in market area,Electricity
+28,Voltage fluctuation in ward 6,Electricity
+29,Power outage for last 5 hours,Electricity
+30,Electric meter not functioning properly,Electricity
+31,Electricity problem during night time,Electricity
+32,Broken electric pole near bus stand,Electricity
+33,High voltage causing appliance damage,Electricity
+34,No street lights in our street,Electricity
+35,Sparks coming from electric wire,Electricity
+36,Power cut every evening in our village,Electricity
+37,Transformer making loud noise,Electricity
+38,Electric line fallen due to storm,Electricity
+39,New connection request pending,Electricity
+40,Electricity issue near hospital road,Electricity
+41,Road full of potholes near school,Road
+42,Main road damaged after heavy rain,Road
+43,No proper road in ward 2,Road
+44,Road construction work incomplete,Road
+45,Big cracks on highway road,Road
+46,Muddy road causing traffic problem,Road
+47,Broken road near temple,Road
+48,Road repair not done for months,Road
+49,Uneven road surface in market area,Road
+50,No street signs on main road,Road
+51,Road blocked due to debris,Road
+52,Drain water flowing on road,Road
+53,Poor road condition near hospital,Road
+54,Gravel road causing accidents,Road
+55,Narrow road causing traffic jam,Road
+56,Road widening work stopped,Road
+57,Damaged bridge on village road,Road
+58,Road not cleaned after rainfall,Road
+59,Waterlogged road in ward 8,Road
+60,Cracked cement road near bus stand,Road
+61,Garbage not collected in ward 3,Sanitation
+62,Drain blocked near school,Sanitation
+63,Overflowing sewage near temple,Sanitation
+64,Public toilet not cleaned regularly,Sanitation
+65,Waste dumped near market area,Sanitation
+66,Bad smell from drainage system,Sanitation
+67,Open drainage causing mosquitoes,Sanitation
+68,Garbage bins not available in street,Sanitation
+69,Sewer line leaking in our area,Sanitation
+70,No cleaning staff visiting regularly,Sanitation
+71,Dirty surroundings near bus stop,Sanitation
+72,Waste water stagnation near houses,Sanitation
+73,Drainage overflow during rain,Sanitation
+74,Garbage pile near hospital road,Sanitation
+75,Open garbage dumping ground,Sanitation
+76,Public sanitation issue in ward 6,Sanitation
+77,Toilet facility broken in village,Sanitation
+78,Drain not covered properly,Sanitation
+79,Mosquito breeding due to stagnant water,Sanitation
+80,No waste collection vehicle in area,Sanitation
+81,Request for new ration card,Others
+82,Pension application status pending,Others
+83,Need street name board installation,Others
+84,Request for new bus stop shelter,Others
+85,Animal nuisance in residential area,Others
+86,Request for community hall repair,Others
+87,Need new street sign board,Others
+88,Complaint about stray dogs,Others
+89,Application for birth certificate delayed,Others
+90,Tree fallen blocking pathway,Others
+91,Request for new school building,Others
+92,Complaint about loudspeaker disturbance,Others
+93,Need speed breaker installation,Others
+94,Encroachment on public land,Others
+95,Request for street cleaning awareness,Others
+96,Public park maintenance issue,Others
+97,Complaint about illegal parking,Others
+98,Need new street benches,Others
+99,Request for village meeting arrangement,Others
+100,General complaint regarding public service delay,Others
+101,There is incomplete road work in school area.,Road
+102,There is water tank overflow in ward 2.,Water
+103,There is road blocked in market area.,Road
+104,There is stagnant water issue in ward 2.,Sanitation
+105,There is public park maintenance issue in ward 3.,Others
+106,There is water leakage in market area.,Water
+107,There is street light not working in hospital road.,Electricity
+108,There is road blocked in ward 1.,Road
+109,There is drain blocked in ward 1.,Sanitation
+110,There is incomplete road work in bus stand.,Road
+111,There is damaged road surface in ward 5.,Road
+112,There is sewage overflow in ward 2.,Sanitation
+113,There is water tank overflow in village center.,Water
+114,There is dirty drinking water in ward 5.,Water
+115,There is cracked cement road in hospital road.,Road
+116,There is stray animal problem in school area.,Others
+117,There is sewage overflow in bus stand.,Sanitation
+118,There is loose wiring in ward 5.,Electricity
+119,There is street light not working in ward 4.,Electricity
+120,There is street light not working in hospital road.,Electricity
+121,There is stray animal problem in bus stand.,Others
+122,There is power cut in bus stand.,Electricity
+123,There is broken pipeline in ward 2.,Water
+124,There is road blocked in temple road.,Road
+125,There is public park maintenance issue in ward 1.,Others
+126,There is road blocked in village center.,Road
+127,There is water tank overflow in hospital road.,Water
+128,There is incomplete road work in ward 4.,Road
+129,There is water leakage in bus stand.,Water
+130,There is broken pipeline in market area.,Water
+131,There is electric pole damaged in market area.,Electricity
+132,There is power cut in hospital road.,Electricity
+133,There is pension delay in ward 4.,Others
+134,There is drain blocked in temple road.,Sanitation
+135,There is potholes on road in ward 5.,Road
+136,There is potholes on road in village center.,Road
+137,There is request for new ration card in ward 2.,Others
+138,There is garbage not collected in ward 4.,Sanitation
+139,There is water leakage in market area.,Water
+140,There is stray animal problem in ward 5.,Others
+141,There is cracked cement road in ward 3.,Road
+142,There is garbage not collected in school area.,Sanitation
+143,There is potholes on road in bus stand.,Road
+144,There is public park maintenance issue in school area.,Others
+145,There is voltage fluctuation in school area.,Electricity
+146,There is water leakage in temple road.,Water
+147,There is drain blocked in ward 2.,Sanitation
+148,There is water tank overflow in hospital road.,Water
+149,There is waste dumped in market area.,Sanitation
+150,There is damaged road surface in bus stand.,Road
+151,There is potholes on road in ward 3.,Road
+152,There is loose wiring in market area.,Electricity
+153,There is potholes on road in ward 5.,Road
+154,There is power cut in hospital road.,Electricity
+155,There is public park maintenance issue in bus stand.,Others
+156,There is stray animal problem in hospital road.,Others
+157,There is public park maintenance issue in market area.,Others
+158,There is cracked cement road in ward 5.,Road
+159,There is community hall repair request in temple road.,Others
+160,There is transformer failure in village center.,Electricity
+161,There is request for new ration card in ward 1.,Others
+162,There is waterlogged road in ward 2.,Road
+163,There is water tank overflow in hospital road.,Water
+164,There is road blocked in market area.,Road
+165,There is low water pressure in hospital road.,Water
+166,There is stagnant water issue in ward 5.,Sanitation
+167,There is damaged road surface in village center.,Road
+168,There is voltage fluctuation in bus stand.,Electricity
+169,There is electric pole damaged in ward 2.,Electricity
+170,There is low water pressure in ward 4.,Water
+171,There is waste dumped in village center.,Sanitation
+172,There is community hall repair request in temple road.,Others
+173,There is incomplete road work in hospital road.,Road
+174,There is water leakage in ward 4.,Water
+175,There is loose wiring in school area.,Electricity
+176,There is road blocked in bus stand.,Road
+177,There is dirty drinking water in hospital road.,Water
+178,There is community hall repair request in bus stand.,Others
+179,There is waterlogged road in market area.,Road
+180,There is cracked cement road in village center.,Road
+181,There is waste dumped in hospital road.,Sanitation
+182,There is need speed breaker in village center.,Others
+183,There is waste dumped in hospital road.,Sanitation
+184,There is water leakage in ward 2.,Water
+185,There is street light not working in temple road.,Electricity
+186,There is low water pressure in bus stand.,Water
+187,There is sewage overflow in bus stand.,Sanitation
+188,There is sewage overflow in ward 5.,Sanitation
+189,There is power cut in school area.,Electricity
+190,There is low water pressure in ward 4.,Water
+191,There is garbage not collected in school area.,Sanitation
+192,There is garbage not collected in temple road.,Sanitation
+193,There is no water supply in temple road.,Water
+194,There is incomplete road work in market area.,Road
+195,There is street light not working in ward 3.,Electricity
+196,There is bad smell from drainage in temple road.,Sanitation
+197,There is request for new ration card in bus stand.,Others
+198,There is garbage not collected in temple road.,Sanitation
+199,There is public park maintenance issue in ward 2.,Others
+200,There is no water supply in ward 1.,Water
+201,There is stray animal problem in temple road.,Others
+202,There is dirty drinking water in village center.,Water
+203,There is sewage overflow in ward 1.,Sanitation
+204,There is water tank overflow in ward 5.,Water
+205,There is no water supply in temple road.,Water
+206,There is community hall repair request in temple road.,Others
+207,There is power cut in ward 2.,Electricity
+208,There is pension delay in bus stand.,Others
+209,There is street light not working in ward 2.,Electricity
+210,There is power cut in ward 2.,Electricity
+211,There is road blocked in market area.,Road
+212,There is no water supply in ward 5.,Water
+213,There is water tank overflow in ward 3.,Water
+214,There is pension delay in village center.,Others
+215,There is cracked cement road in market area.,Road
+216,There is need speed breaker in ward 5.,Others
+217,There is low water pressure in ward 1.,Water
+218,There is damaged road surface in hospital road.,Road
+219,There is waterlogged road in market area.,Road
+220,There is potholes on road in temple road.,Road
+221,There is drain blocked in hospital road.,Sanitation
+222,There is garbage not collected in ward 3.,Sanitation
+223,There is request for new ration card in market area.,Others
+224,There is potholes on road in village center.,Road
+225,There is cracked cement road in ward 5.,Road
+226,There is electric pole damaged in hospital road.,Electricity
+227,There is garbage not collected in ward 3.,Sanitation
+228,There is dirty drinking water in ward 4.,Water
+229,There is garbage not collected in school area.,Sanitation
+230,There is low water pressure in school area.,Water
+231,There is sewage overflow in bus stand.,Sanitation
+232,There is stray animal problem in ward 1.,Others
+233,There is waterlogged road in ward 5.,Road
+234,There is electric pole damaged in ward 5.,Electricity
+235,There is public park maintenance issue in temple road.,Others
+236,There is sewage overflow in bus stand.,Sanitation
+237,There is low water pressure in ward 4.,Water
+238,There is voltage fluctuation in village center.,Electricity
+239,There is waste dumped in bus stand.,Sanitation
+240,There is need speed breaker in ward 2.,Others
+241,There is no water supply in hospital road.,Water
+242,There is public park maintenance issue in market area.,Others
+243,There is power cut in market area.,Electricity
+244,There is stray animal problem in village center.,Others
+245,There is drain blocked in temple road.,Sanitation
+246,There is bad smell from drainage in ward 5.,Sanitation
+247,There is stray animal problem in ward 2.,Others
+248,There is road blocked in village center.,Road
+249,There is water tank overflow in school area.,Water
+250,There is no water supply in village center.,Water
+251,There is sewage overflow in temple road.,Sanitation
+252,There is dirty drinking water in temple road.,Water
+253,There is voltage fluctuation in ward 1.,Electricity
+254,There is transformer failure in bus stand.,Electricity
+255,There is dirty drinking water in ward 1.,Water
+256,There is low water pressure in temple road.,Water
+257,There is waste dumped in ward 4.,Sanitation
+258,There is sewage overflow in ward 4.,Sanitation
+259,There is water tank overflow in temple road.,Water
+260,There is need speed breaker in hospital road.,Others
+261,There is waste dumped in hospital road.,Sanitation
+262,There is garbage not collected in temple road.,Sanitation
+263,There is public park maintenance issue in bus stand.,Others
+264,There is stray animal problem in ward 2.,Others
+265,There is loose wiring in ward 2.,Electricity
+266,There is request for new ration card in school area.,Others
+267,There is community hall repair request in school area.,Others
+268,There is community hall repair request in ward 5.,Others
+269,There is incomplete road work in market area.,Road
+270,There is incomplete road work in ward 4.,Road
+271,There is cracked cement road in bus stand.,Road
+272,There is voltage fluctuation in ward 4.,Electricity
+273,There is transformer failure in temple road.,Electricity
+274,There is drain blocked in temple road.,Sanitation
+275,There is electric pole damaged in school area.,Electricity
+276,There is voltage fluctuation in village center.,Electricity
+277,There is stray animal problem in ward 5.,Others
+278,There is no water supply in ward 3.,Water
+279,There is low water pressure in ward 1.,Water
+280,There is no water supply in school area.,Water
+281,There is power cut in ward 2.,Electricity
+282,There is sewage overflow in ward 2.,Sanitation
+283,There is public park maintenance issue in hospital road.,Others
+284,There is low water pressure in hospital road.,Water
+285,There is sewage overflow in ward 3.,Sanitation
+286,There is community hall repair request in village center.,Others
+287,There is cracked cement road in ward 4.,Road
+288,There is voltage fluctuation in ward 2.,Electricity
+289,There is stagnant water issue in ward 4.,Sanitation
+290,There is request for new ration card in market area.,Others
+291,There is waste dumped in bus stand.,Sanitation
+292,There is road blocked in ward 4.,Road
+293,There is garbage not collected in temple road.,Sanitation
+294,There is street light not working in ward 5.,Electricity
+295,There is cracked cement road in bus stand.,Road
+296,There is garbage not collected in ward 1.,Sanitation
+297,There is waste dumped in school area.,Sanitation
+298,There is potholes on road in market area.,Road
+299,There is voltage fluctuation in hospital road.,Electricity
+300,There is voltage fluctuation in market area.,Electricity
+301,There is street light not working in temple road.,Electricity
+302,There is voltage fluctuation in market area.,Electricity
+303,There is no water supply in ward 3.,Water
+304,There is public park maintenance issue in bus stand.,Others
+305,There is dirty drinking water in village center.,Water
+306,There is potholes on road in ward 5.,Road
+307,There is damaged road surface in village center.,Road
+308,There is incomplete road work in village center.,Road
+309,There is stray animal problem in village center.,Others
+310,There is bad smell from drainage in ward 5.,Sanitation
+311,There is cracked cement road in hospital road.,Road
+312,There is stray animal problem in ward 1.,Others
+313,There is power cut in bus stand.,Electricity
+314,There is sewage overflow in bus stand.,Sanitation
+315,There is water tank overflow in temple road.,Water
+316,There is transformer failure in ward 5.,Electricity
+317,There is waterlogged road in ward 3.,Road
+318,There is public park maintenance issue in market area.,Others
+319,There is drain blocked in market area.,Sanitation
+320,There is broken pipeline in ward 3.,Water
+321,There is need speed breaker in ward 2.,Others
+322,There is loose wiring in ward 4.,Electricity
+323,There is waterlogged road in temple road.,Road
+324,There is road blocked in ward 5.,Road
+325,There is pension delay in market area.,Others
+326,There is sewage overflow in temple road.,Sanitation
+327,There is request for new ration card in ward 4.,Others
+328,There is drain blocked in temple road.,Sanitation
+329,There is public park maintenance issue in school area.,Others
+330,There is dirty drinking water in market area.,Water
+331,There is garbage not collected in ward 3.,Sanitation
+332,There is drain blocked in hospital road.,Sanitation
+333,There is bad smell from drainage in school area.,Sanitation
+334,There is sewage overflow in ward 1.,Sanitation
+335,There is stray animal problem in ward 4.,Others
+336,There is stagnant water issue in bus stand.,Sanitation
+337,There is transformer failure in temple road.,Electricity
+338,There is request for new ration card in ward 1.,Others
+339,There is cracked cement road in bus stand.,Road
+340,There is electric pole damaged in village center.,Electricity
+341,There is drain blocked in bus stand.,Sanitation
+342,There is voltage fluctuation in temple road.,Electricity
+343,There is bad smell from drainage in ward 4.,Sanitation
+344,There is stray animal problem in ward 3.,Others
+345,There is low water pressure in ward 4.,Water
+346,There is drain blocked in ward 3.,Sanitation
+347,There is no water supply in market area.,Water
+348,There is voltage fluctuation in ward 1.,Electricity
+349,There is voltage fluctuation in bus stand.,Electricity
+350,There is transformer failure in ward 4.,Electricity
+351,There is sewage overflow in ward 2.,Sanitation
+352,There is water tank overflow in ward 4.,Water
+353,There is electric pole damaged in ward 1.,Electricity
+354,There is request for new ration card in village center.,Others
+355,There is stray animal problem in ward 4.,Others
+356,There is incomplete road work in ward 4.,Road
+357,There is garbage not collected in temple road.,Sanitation
+358,There is low water pressure in ward 2.,Water
+359,There is potholes on road in ward 3.,Road
+360,There is cracked cement road in village center.,Road
+361,There is power cut in temple road.,Electricity
+362,There is damaged road surface in market area.,Road
+363,There is sewage overflow in school area.,Sanitation
+364,There is public park maintenance issue in ward 2.,Others
+365,There is incomplete road work in ward 5.,Road
+366,There is cracked cement road in village center.,Road
+367,There is bad smell from drainage in temple road.,Sanitation
+368,There is need speed breaker in village center.,Others
+369,There is cracked cement road in bus stand.,Road
+370,There is road blocked in ward 1.,Road
+371,There is sewage overflow in village center.,Sanitation
+372,There is waterlogged road in ward 4.,Road
+373,There is no water supply in ward 2.,Water
+374,There is transformer failure in ward 3.,Electricity
+375,There is public park maintenance issue in village center.,Others
+376,There is pension delay in hospital road.,Others
+377,There is cracked cement road in village center.,Road
+378,There is need speed breaker in ward 5.,Others
+379,There is loose wiring in ward 3.,Electricity
+380,There is waterlogged road in bus stand.,Road
+381,There is public park maintenance issue in village center.,Others
+382,There is cracked cement road in ward 1.,Road
+383,There is sewage overflow in hospital road.,Sanitation
+384,There is drain blocked in ward 1.,Sanitation
+385,There is low water pressure in ward 2.,Water
+386,There is garbage not collected in ward 3.,Sanitation
+387,There is waste dumped in school area.,Sanitation
+388,There is no water supply in hospital road.,Water
+389,There is incomplete road work in ward 4.,Road
+390,There is damaged road surface in bus stand.,Road
+391,There is potholes on road in bus stand.,Road
+392,There is sewage overflow in ward 4.,Sanitation
+393,There is stray animal problem in ward 3.,Others
+394,There is sewage overflow in ward 4.,Sanitation
+395,There is damaged road surface in temple road.,Road
+396,There is electric pole damaged in hospital road.,Electricity
+397,There is bad smell from drainage in market area.,Sanitation
+398,There is request for new ration card in market area.,Others
+399,There is sewage overflow in ward 5.,Sanitation
+400,There is stagnant water issue in bus stand.,Sanitation
+401,There is request for new ration card in ward 3.,Others
+402,There is no water supply in ward 3.,Water
+403,There is transformer failure in temple road.,Electricity
+404,There is incomplete road work in ward 1.,Road
+405,There is street light not working in temple road.,Electricity
+406,There is broken pipeline in hospital road.,Water
+407,There is transformer failure in ward 5.,Electricity
+408,There is power cut in bus stand.,Electricity
+409,There is street light not working in hospital road.,Electricity
+410,There is low water pressure in ward 4.,Water
+411,There is need speed breaker in ward 3.,Others
+412,There is transformer failure in ward 5.,Electricity
+413,There is pension delay in ward 3.,Others
+414,There is garbage not collected in ward 1.,Sanitation
+415,There is request for new ration card in ward 2.,Others
+416,There is street light not working in ward 5.,Electricity
+417,There is stagnant water issue in village center.,Sanitation
+418,There is electric pole damaged in temple road.,Electricity
+419,There is low water pressure in ward 5.,Water
+420,There is street light not working in market area.,Electricity
+421,There is potholes on road in ward 2.,Road
+422,There is garbage not collected in ward 3.,Sanitation
+423,There is power cut in ward 2.,Electricity
+424,There is need speed breaker in village center.,Others
+425,There is garbage not collected in market area.,Sanitation
+426,There is dirty drinking water in bus stand.,Water
+427,There is stray animal problem in ward 3.,Others
+428,There is transformer failure in ward 4.,Electricity
+429,There is community hall repair request in ward 2.,Others
+430,There is low water pressure in bus stand.,Water
+431,There is cracked cement road in village center.,Road
+432,There is garbage not collected in ward 2.,Sanitation
+433,There is water leakage in market area.,Water
+434,There is electric pole damaged in market area.,Electricity
+435,There is bad smell from drainage in ward 3.,Sanitation
+436,There is community hall repair request in hospital road.,Others
+437,There is low water pressure in school area.,Water
+438,There is electric pole damaged in school area.,Electricity
+439,There is bad smell from drainage in hospital road.,Sanitation
+440,There is community hall repair request in hospital road.,Others
+441,There is need speed breaker in market area.,Others
+442,There is road blocked in market area.,Road
+443,There is transformer failure in ward 2.,Electricity
+444,There is garbage not collected in ward 3.,Sanitation
+445,There is cracked cement road in ward 4.,Road
+446,There is street light not working in school area.,Electricity
+447,There is cracked cement road in ward 2.,Road
+448,There is broken pipeline in ward 2.,Water
+449,There is low water pressure in school area.,Water
+450,There is low water pressure in ward 3.,Water
+451,There is request for new ration card in bus stand.,Others
+452,There is potholes on road in hospital road.,Road
+453,There is potholes on road in ward 4.,Road
+454,There is drain blocked in hospital road.,Sanitation
+455,There is water leakage in ward 4.,Water
+456,There is pension delay in temple road.,Others
+457,There is waterlogged road in ward 5.,Road
+458,There is stray animal problem in market area.,Others
+459,There is waterlogged road in market area.,Road
+460,There is street light not working in hospital road.,Electricity
+461,There is waste dumped in village center.,Sanitation
+462,There is sewage overflow in ward 1.,Sanitation
+463,There is drain blocked in market area.,Sanitation
+464,There is broken pipeline in ward 2.,Water
+465,There is cracked cement road in bus stand.,Road
+466,There is road blocked in ward 5.,Road
+467,There is water leakage in ward 3.,Water
+468,There is voltage fluctuation in temple road.,Electricity
+469,There is garbage not collected in ward 2.,Sanitation
+470,There is incomplete road work in ward 1.,Road
+471,There is loose wiring in ward 1.,Electricity
+472,There is road blocked in ward 2.,Road
+473,There is request for new ration card in hospital road.,Others
+474,There is need speed breaker in bus stand.,Others
+475,There is cracked cement road in ward 1.,Road
+476,There is stagnant water issue in market area.,Sanitation
+477,There is waste dumped in bus stand.,Sanitation
+478,There is broken pipeline in market area.,Water
+479,There is cracked cement road in ward 2.,Road
+480,There is broken pipeline in village center.,Water
+481,There is drain blocked in ward 1.,Sanitation
+482,There is bad smell from drainage in ward 3.,Sanitation
+483,There is incomplete road work in village center.,Road
+484,There is power cut in ward 3.,Electricity
+485,There is loose wiring in ward 2.,Electricity
+486,There is pension delay in temple road.,Others
+487,There is request for new ration card in temple road.,Others
+488,There is low water pressure in school area.,Water
+489,There is water tank overflow in school area.,Water
+490,There is transformer failure in ward 5.,Electricity
+491,There is broken pipeline in village center.,Water
+492,There is stray animal problem in ward 5.,Others
+493,There is electric pole damaged in temple road.,Electricity
+494,There is potholes on road in hospital road.,Road
+495,There is community hall repair request in bus stand.,Others
+496,There is stagnant water issue in school area.,Sanitation
+497,There is electric pole damaged in temple road.,Electricity
+498,There is community hall repair request in ward 5.,Others
+499,There is incomplete road work in bus stand.,Road
+500,There is waterlogged road in ward 3.,Road
