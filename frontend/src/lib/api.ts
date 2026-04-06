@@ -1,7 +1,7 @@
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 export async function submitComplaintText(text: string) {
-  const response = await fetch(`${API_BASE_URL}/api/predictions/text`, {
+  const response = await fetch(`${API_BASE_URL}/api/predictions/predict/text`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -10,7 +10,9 @@ export async function submitComplaintText(text: string) {
   });
 
   if (!response.ok) {
-    throw new Error("Failed to submit text complaint");
+    const errorDetails = await response.text();
+    console.error("Backend Error Details:", errorDetails);
+    throw new Error(`Failed to submit text complaint. Status: ${response.status}. Details: ${errorDetails}`);
   }
 
   return response.json();
@@ -20,13 +22,15 @@ export async function submitComplaintVoice(audioBlob: Blob) {
   const formData = new FormData();
   formData.append("file", audioBlob, "recording.wav");
 
-  const response = await fetch(`${API_BASE_URL}/api/predictions/voice`, {
+  const response = await fetch(`${API_BASE_URL}/api/predictions/predict/voice`, {
     method: "POST",
     body: formData,
   });
 
   if (!response.ok) {
-    throw new Error("Failed to submit voice complaint");
+    const errorDetails = await response.text();
+    console.error("Backend Error Details:", errorDetails);
+    throw new Error(`Failed to submit voice complaint. Status: ${response.status}. Details: ${errorDetails}`);
   }
 
   return response.json();

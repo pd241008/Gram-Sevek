@@ -1,9 +1,12 @@
 import { ComplaintModel } from "../models/Complaint";
+import { UserModel } from "../models/User"; // Ensure User model is registered for populate()
 import { generateComplaintId } from "../utils/generateId";
 import { categorizeComplaint } from "../utils/nlp";
 
 export const createComplaint = async (userId: string, data: any) => {
-  const { category, dept } = categorizeComplaint(data.description);
+  const { category, dept } = (data.category && data.department) 
+    ? { category: data.category, dept: data.department }
+    : categorizeComplaint(data.description);
 
   const complaint = await ComplaintModel.create({
     userId,
@@ -26,7 +29,7 @@ export const updateComplaintStatus = async (
   status: string,
   adminId: string
 ) => {
-  const complaint = await ComplaintModel.findById(complaintId);
+  const complaint = await ComplaintModel.findOne({ complaintId: complaintId });
 
   if (!complaint) throw new Error("Complaint not found");
 

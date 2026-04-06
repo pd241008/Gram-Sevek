@@ -3,6 +3,9 @@ import cors from "cors";
 import morgan from "morgan";
 // Import everything from the Bridge
 import { loadExpressKit, ExpressKitError } from "./config/expresskit.bridge";
+import "./models/User";
+import "./models/Complaint";
+import "./models/StatusHistory";
 
 const app = express();
 

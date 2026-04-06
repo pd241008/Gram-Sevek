@@ -33,10 +33,12 @@ export async function POST(req: Request) {
     let finalContent = text;
 
     if (type === "text") {
-      predictionResult = await submitComplaintText(text);
-      if (typeof predictionResult === "string" || !predictionResult.predicted_category) {
-          predictionResult = { predicted_category: String(predictionResult.predicted_category || predictionResult) };
-      }
+      const result = await submitComplaintText(text);
+      // FastAPI returns 'category' and 'text'. Normalize to 'predicted_category'
+      predictionResult = { 
+        predicted_category: result.category || "General",
+        transcribed_text: result.text || text
+      };
     } else if (type === "voice" && audioBase64) {
       // Decode base64 to Blob
       const byteCharacters = atob(audioBase64);
@@ -53,15 +55,21 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "Invalid input type" }, { status: 400 });
     }
 
-    const category = predictionResult.predicted_category || "General";
+    const category = (predictionResult.predicted_category || "other").toLowerCase();
     
+    // Normalize to exact enum values allowed by Mongoose
+    let finalCategory = "other";
+    if (["water", "road", "electricity"].includes(category)) {
+      finalCategory = category;
+    }
+
     // Generate Complaint Payload
     const newComplaint: Complaint = {
       id: "GS-" + Math.floor(100000 + Math.random() * 900000).toString(),
       type,
       content: finalContent,
-      category: category,
-      department: getDepartmentForCategory(category),
+      category: finalCategory,
+      department: getDepartmentForCategory(predictionResult.predicted_category || "General"),
       status: "Pending",
       createdAt: new Date().toISOString()
     };
@@ -72,6 +80,9 @@ export async function POST(req: Request) {
 
   } catch (error: any) {
     console.error("Error creating complaint:", error);
-    return NextResponse.json({ error: "Failed to create complaint" }, { status: 500 });
+    return NextResponse.json({ 
+      error: "Failed to create complaint",
+      details: error instanceof Error ? error.message : String(error)
+    }, { status: 500 });
   }
 }
