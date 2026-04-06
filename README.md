@@ -240,6 +240,6 @@ For queries or collaboration:
 
 * **Name**: Prathmesh
 * **Email**: prahmeshpdesai@gmail.com
-* **GitHub**: [github.com/prath](https://github.com/pd241008)
+* **GitHub**: [github.com/pd241008](https://github.com/pd241008)
 
 *(Note: Please update the contact information with your exact details if needed!)*
