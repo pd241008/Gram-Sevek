@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mic, FileText, Activity, LogOut } from "lucide-react";
+import { Mic, FileText, Activity, LogOut, PieChart as PieChartIcon } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -27,12 +27,17 @@ export default function VillagerDashboard() {
       {/* Header */}
       <nav className="w-full p-6 flex justify-between items-center relative z-10 border-b border-gs-border bg-gs-bg/50 backdrop-blur-md">
         <h1 className="text-2xl font-black tracking-tight text-white">Gram<span className="text-gs-primary">Sevak</span></h1>
-        <button 
-          onClick={() => { localStorage.removeItem("userRole"); router.push("/"); }}
-          className="flex items-center gap-2 text-gs-text-muted hover:text-red-400 transition-colors"
-        >
-          <LogOut size={18} /> Logout
-        </button>
+        <div className="flex items-center gap-6">
+          <Link href="/analytics" className="flex items-center gap-2 text-gs-text-muted hover:text-white transition-colors font-medium">
+            <PieChartIcon size={18} /> Analytics
+          </Link>
+          <button 
+            onClick={() => { localStorage.removeItem("userRole"); router.push("/"); }}
+            className="flex items-center gap-2 text-gs-text-muted hover:text-red-400 transition-colors font-medium"
+          >
+            <LogOut size={18} /> Logout
+          </button>
+        </div>
       </nav>
 
       <div className="max-w-5xl mx-auto px-6 py-12 relative z-10 flex flex-col items-center">
